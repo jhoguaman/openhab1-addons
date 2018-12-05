@@ -48,6 +48,8 @@ You need to change the IP address inside the sketch according to one free IP add
       - Arduino with W5100 Ethernet Shield
         
 ***************************************************************************/
+// Let the IDE point to the Souliss framework
+#include "SoulissFramework.h"
 
 // Configure the framework
 #include "bconf/StandardArduino.h"          
